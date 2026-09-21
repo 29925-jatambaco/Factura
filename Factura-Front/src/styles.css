@@ -1,0 +1,43 @@
+/* Estilos globales para la aplicación de facturación ESPE */
+
+:root {
+  --espe-blue: #1e40af;
+  --espe-yellow: #f8c21a;
+  --espe-dark-blue: #1e3a8a;
+}
+
+body {
+  background: radial-gradient(circle at 50% 50%, #ffffff 0%, #f1f5f9 100%);
+  color: #1e293b;
+  min-height: 100vh;
+}
+
+.espe-header {
+  background: linear-gradient(135deg, var(--espe-dark-blue) 0%, var(--espe-blue) 100%);
+  color: white;
+  border-bottom: 5px solid var(--espe-yellow);
+}
+
+.btn-espe {
+  background-color: var(--espe-blue);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-espe:hover {
+  background-color: var(--espe-dark-blue);
+  color: white;
+  transform: translateY(-1px);
+}
+
+.card-espe {
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.badge-espe {
+  background-color: var(--espe-yellow);
+  color: #1e293b;
+  font-weight: 600;
+}
